@@ -1,3 +1,5 @@
+int score = 0;
+
 void setup(){
   size(800, 800);
   background(#3db85d);
@@ -17,6 +19,8 @@ void draw(){
      line(0,y,width,y);
      y = y + 80;
   }
+  textSize(64);
+  text(score, 20, 60);
 }
 
     
